@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <title>Giỏ hàng</title>
+    <!-- Các thẻ meta bắt buộc -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="stylesheet" href="giohang.css" />
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <div class="mar">
+      <header>
+        <!-- place navbar here -->
+        <nav class="navbar navbar-expand">
+          <div class="container-fluid header">
+            <img src="img/weblogo.png" alt="" width="70px" />
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="index.html"
+                    >Trang chủ</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="sanpham.html"
+                    >Sản phẩm</a
+                  >
+                </li>
+              </ul>
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Tìm kiếm</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="giohang.html"
+                    >Giỏ hàng (0)</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="dangnhap.html"
+                    >Đăng nhập</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="dangky.html"
+                    >Đăng ký</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <main>
+        <div class="container-fluid d-flex justify-content-between ">
+          <div class="col-left">
+            <div class="row1">
+              <h2>Giỏ hàng</h2>
+              <p>3 sản phẩm</p>
+            </div>
+            <div class="products">
+              <div class="product product-1">
+                <img src="img/rectangle-1@2x.png" alt="">
+                <div class="product-items product-items1">
+                  <a href="#">Tượng người</a>
+                  <p>chi tiết</p>
+                </div>
+                <div class="product-items product-items2">
+                  <a href="#">Số lượng</a>
+                  <div class="btn-quantity">
+                  <button type="button"><p id="minus">-</p></button>
+                  <p class="quantity">1</p>
+                  <button type="button"><p id="plus">+</p></button>
+                  </div>
+                </div>
+                <div class="product-items product-items3">
+                  <a href="#">$1540</a>
+                </div>
+              </div>
+              <div class="product product-1">
+                <img src="img/rectangle-2@2x.png" alt="">
+                <div class="product-items product-items1">
+                  <a href="#">Tượng chân</a>
+                  <p>chi tiết</p>
+                </div>
+                <div class="product-items product-items2">
+                  <a href="#">Số lượng</a>
+                  <div class="btn-quantity">
+                  <button type="button"><p id="minus">-</p></button>
+                  <p class="quantity">1</p>
+                  <button type="button"><p id="plus">+</p></button>
+                  </div>
+                </div>
+                <div class="product-items product-items3">
+                  <a href="#">$658</a>
+                </div>
+              </div>
+              <div class="product product-1">
+                <img src="img/rectangle-3@2x.png" alt="">
+                <div class="product-items product-items1">
+                  <a href="#">Đồ gốm thủ công</a>
+                  <p>chi tiết</p>
+                </div>
+                <div class="product-items product-items2">
+                  <a href="#">Số lượng</a>
+                  <div class="btn-quantity">
+                  <button type="button"><p id="minus">-</p></button>
+                  <p class="quantity">1</p>
+                  <button type="button"><p id="plus">+</p></button>
+                  </div>
+                </div>
+                <div class="product-items product-items3">
+                  <a href="#">$800</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-right">
+            <h3>Tóm tắt</h3>
+            <div class="item d-flex justify-content-between ">
+              <p>SẢN PHẨM 3</p>
+              <p>$3098.00</p>
+            </div>
+            <div class="inp">
+              <label for="voucher" style="margin-bottom: 10px;">VOUCHER</label>
+              <input type="text" placeholder="Vui lòng chọn mã giảm giá" class="voucher">
+              <label for="give-code"  style="margin-bottom: 10px;">NHẬP MÃ</label>
+              <input type="text" placeholder="Nhập mã của bạn" class="voucher give-code">
+            </div>
+            <div class="total-price d-flex justify-content-between ">
+              <p >TỔNG TIỀN</p>
+              <p>$3098.00</p>
+            </div>
+            <div class="check">
+              <p><button type="button">THANH TOÁN</button></p>
+             
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <footer class="container-fluid">
+      <div class="row row-footer">
+        <div class="col-6">
+          <div>
+            Về Chậu cảnh Hoàng Long <br />
+            <br />
+            Shop hiện đang có mặt tại TP Cam Ranh chuyên bán các sản phẩm về
+            chậu cảnh, kiểng mẫu mã đẹp, uy tín chất lượng, giá thành rẻ bậc
+            nhất Tỉnh Khánh Hòa <br />
+            <br />
+            SĐT: 0333444555 <br />
+            Đ/C: Đường số 17, Cam Thành Nam, Cam Ranh, tỉnh Khánh Hòa
+          </div>
+        </div>
+        <div class="col-4 payment">
+          <div>Phương thức thanh toán được áp dụng</div>
+          <img src="img/momo.png" alt="" />
+          <img src="img/shopeepay.png" alt="" />
+          <img src="img/napas.png" alt="" />
+          <img src="img/smartpay.png" alt="" />
+        </div>
+        <div class="col-2">
+          <div>
+            Chính sách <br />
+            <br />
+            Tìm kiếm <br />
+            Giới thiệu <br />
+            Chính sách đổi trả <br />
+            Liên hệ
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
+

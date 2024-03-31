@@ -1,0 +1,81 @@
+.mar {
+  margin: 10px;
+  font-size: 16px;
+}
+
+.header {
+  margin: 10px 0;
+}
+
+a {
+  color: black !important;
+}
+
+.col a {
+  text-decoration: none;
+}
+
+.categories div {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.welcome {
+  text-transform: uppercase;
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.confirm-button {
+  padding: 10px;
+  color: white;
+  background-color: #b59460;
+  border: none;
+  box-shadow: none;
+  text-shadow: none;
+  margin-bottom: 20px;
+}
+
+.np-button {
+  padding: 15px 25px 25px 25px;
+  background-color: white;
+  border: none;
+  box-shadow: none;
+  text-shadow: none;
+  outline: none;
+}
+
+.pro-col img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.pro-name {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.pro-price {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.row-footer {
+  font-size: 14px;
+  padding: 10px;
+  color: white;
+  background-color: black;
+  height: 200px;
+  align-items: center;
+}
+
+.payment {
+  justify-content: center;
+}
+
+.payment img {
+  margin-top: 10px;
+  margin-right: 30px;
+}
